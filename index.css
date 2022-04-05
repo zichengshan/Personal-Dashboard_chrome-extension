@@ -13,3 +13,19 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     text-shadow: 2px 3px 2px #474747;
 }
+
+main {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+h1.time {
+    text-align: center;
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+}
