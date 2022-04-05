@@ -37,10 +37,10 @@ main {
 }
 
 div#crypto > p {
-    margin-bottom: .7em;
+    margin: 0.2em 0;
 }
 
-h1.time {
+h1#time {
     text-align: center;
     font-size: 3.5rem;
 }
