@@ -1,6 +1,7 @@
 # Personal-Dashboard_chrome-extension
 ## Description
-Built a personal dashboard chrome extension from scratch. This extension has the following functions:
+Built a personal dashboard chrome extension from scratch that replaced new tab page with a personal dashboard featuring background image, weather, Dogecoin live price
+
 1. Fetch background image from API (https://apis.scrimba.com/unsplash/photos/random?orientation=landscape&query=nature)
 2. Get the current price of Dogecoin as well as the highest and lowest values in the past 24 hours through API (https://api.coingecko.com/api/v3/coins/dogecoin)
 3. Fetch the location, temperature and weather icon from API (https://apis.scrimba.com/openweathermap/data/2.5/weather)
