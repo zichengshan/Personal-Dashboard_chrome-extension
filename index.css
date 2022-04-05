@@ -29,12 +29,15 @@ main {
 
 #crypto-top {
     display: flex;
-
-
 }
+
 #crypto-top > img {
     align-self: center;
     margin-right: 10px;
+}
+
+div#crypto > p {
+    margin-bottom: .7em;
 }
 
 h1.time {

@@ -11,8 +11,6 @@ fetch("https://apis.scrimba.com/unsplash/photos/random?orientation=landscape&que
         document.getElementById("author").textContent = `By: Vadim Sherbakov`
     })
 
-//http://api.coingecko.com/api/v3/coins
-
 fetch("https://api.coingecko.com/api/v3/coins/dogecoin", {method:"GET"})
     .then(res => {
         if (!res.ok) {
@@ -24,6 +22,11 @@ fetch("https://api.coingecko.com/api/v3/coins/dogecoin", {method:"GET"})
         document.getElementById("crypto-top").innerHTML = `
             <img src="${data.image.small}">
             <p>${data.name}</p>
+        `
+        document.getElementById("crypto").innerHTML += `
+            <p>🎯 Current price: ${data.market_data.current_price.usd}</p>
+            <p>24-hour high price: ${data.market_data.high_24h.usd}</p>
+            <p>24-hour low price: ${data.market_data.low_24h.usd}</p>
         `
     })
     .catch(err => {
